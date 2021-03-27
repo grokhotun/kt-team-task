@@ -34,7 +34,7 @@ const App: React.FC = () => {
   return (
     <div className="wrapper">
       <h1>TypeScipted Todo App</h1>
-      <span className="hint">Чтобы существующее отредактировать задание кликните по нему и начните писать</span>
+      <span className="hint">Чтобы отредактировать существующее задание кликните по нему и начните писать</span>
       <AddTodo
         onAdd={addHandler}/>
       <TodoList
